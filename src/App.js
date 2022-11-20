@@ -48,16 +48,16 @@ function App()
 
   return (
     <div
-      className="App font-themeFontFamily min-h-screen py-10 bg-right-top"
+      className="App font-themeFontFamily min-h-screen py-10 bg-right-top px-4 md:px-0"
       style={{ backgroundImage: `url(${background2})` }}
     >
-      <div className='pr-8'>
-        <h1 className='text-3xl text-themeBlack uppercase text-right mb-2'>welcome to</h1>
-        <p className='sm:text-5xl md:text-7xl text-themeBlack uppercase text-right'>our world cup <br />raffle</p>
-        <h2 className='text-themeBlack text-right pt-2'>Enter your first name to find out who your allocated team is</h2>
+      <div className='pr-0 md:pr-8'>
+        <h1 className='text-3xl text-themeBlack uppercase text-center md:text-right mb-2'>welcome to</h1>
+        <p className='text-5xl md:text-7xl text-themeBlack uppercase text-center md:text-right'>our world cup <br />raffle</p>
+        <h2 className='text-themeBlack text-center md:text-right pt-2'>Enter your first name to find out who your allocated team is</h2>
       </div>
 
-      <div className='flex justify-end pr-8 my-6 space-x-4'>
+      <div className='flex flex-col md:flex-row justify-end pr-0 md:pr-8 my-6 space-y-4 md:space-y-0 md:space-x-4'>
         <input
           type='text'
           id='name'
@@ -75,7 +75,7 @@ function App()
           </button>
       </div>
 
-      <div className='flex flex-col pr-8 items-end'>
+      <div className='flex flex-col md:pr-8 items-center md:items-end'>
         <hr className='w-80 self-end bg-themeGold h-0.5 mb-4' />
         {team && (
           <div className='flex flex-col items-center space-y-8 mt-8'>
@@ -87,9 +87,9 @@ function App()
           </div>
         )}
         {error && (
-          <div className='flex flex-col items-end mt-10'>
+          <div className='flex flex-col items-center md:items-end mt-10'>
             <p className='text-xl text-rose-500'>Name not found</p>
-            <p className='text-sm w-96 text-end text-themeBlack text-center'>{error}</p>
+            <p className='text-sm w-96 text-center md:text-end text-themeBlack text-center px-6 md:px-0'>{error}</p>
           </div>
         )}
       </div>
