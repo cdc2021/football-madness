@@ -9,6 +9,7 @@ import netherlandsFlag from './assets/netherlandsFlag.svg';
 import portugalFlag from './assets/portugalFlag.svg';
 import argentinaFlag from './assets/belgiumFlag.svg';
 import franceFlag from './assets/franceFlag.svg';
+import croatiaFlag from './assets/croatiaFlag.svg';
 
 export const assignedNameAndTeam = {
     diane: {
@@ -55,4 +56,8 @@ export const assignedNameAndTeam = {
         team: 'Italy',
         flag: italyFlag,
     },
+    ronan: {
+        team: 'Croatia',
+        flag: croatiaFlag,
+    }
 };
