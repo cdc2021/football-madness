@@ -15,7 +15,7 @@ function App()
   {
     let resultToUser = '';
     let error = '';
-    const nameNotFoundText = 'Please enter one of these names: Chris, Diane, Xanjo, Josh, Jadan, Jay, Marcel, Daphne, Margaret, Roy, Anton';
+    const nameNotFoundText = 'Please enter one of these names: Chris, Xanjo, Josh, Jadan, Jay, Marcel, Daphne, Margaret, Roy, Anton';
     const lowerCaseName = name.toLowerCase();
 
     if (assignedNameAndTeam?.[lowerCaseName]?.['team'] === undefined)

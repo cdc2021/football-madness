@@ -4,7 +4,6 @@ import belgiumFlag from './assets//belgiumFlag.svg';
 import brazilFlag from './assets/brazilFlag.svg';
 import denmarkFlag from './assets/denmarkFlag.svg';
 import englandFlag from './assets/englandFlag.svg';
-import italyFlag from './assets/italyFlag.svg';
 import netherlandsFlag from './assets/netherlandsFlag.svg';
 import portugalFlag from './assets/portugalFlag.svg';
 import argentinaFlag from './assets/belgiumFlag.svg';
@@ -12,7 +11,7 @@ import franceFlag from './assets/franceFlag.svg';
 import croatiaFlag from './assets/croatiaFlag.svg';
 
 export const assignedNameAndTeam = {
-    diane: {
+    xanjo: {
         team: 'England',
         flag: englandFlag,
     },
@@ -51,10 +50,6 @@ export const assignedNameAndTeam = {
     roy: {
         team: 'Belgium',
         flag: belgiumFlag,
-    },
-    xanjo: {
-        team: 'Italy',
-        flag: italyFlag,
     },
     ronan: {
         team: 'Croatia',
